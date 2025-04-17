@@ -1,0 +1,5 @@
+{
+  "ignore": ["functions"],
+  "buildCommand": "next build",
+  "outputDirectory": ".next"
+} 

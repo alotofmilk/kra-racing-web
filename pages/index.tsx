@@ -52,11 +52,11 @@ export default function Home() {
           <div className="relative bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 group border border-gray-200">
             <div className="absolute inset-0 bg-gradient-to-t from-white/90 via-white/50 to-transparent rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             <div className="relative z-10">
-              <h2 className="text-2xl font-bold mb-4 text-gray-800 group-hover:text-primary transition-colors duration-300">모의 배팅</h2>
+              <h2 className="text-2xl font-bold mb-4 text-gray-800 group-hover:text-primary transition-colors duration-300">모의 베팅</h2>
               <p className="text-gray-600 mb-6">경마 예측을 통해 포인트를 획득하세요!</p>
               <Link href="/match-prediction">
                 <button className="w-full py-4 px-6 text-white rounded-lg font-semibold text-lg shadow-md hover:shadow-lg gradient-button">
-                  모의 배팅 시작하기
+                  모의 베팅 시작하기
                 </button>
               </Link>
             </div>

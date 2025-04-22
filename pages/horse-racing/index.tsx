@@ -33,7 +33,7 @@ const HorseRacing: NextPage = () => {
     }
 
     if (!selectedHorse || !betAmount) {
-      setError('마와 배팅 금액을 선택해주세요.');
+      setError('마와 베팅 금액을 선택해주세요.');
       return;
     }
 
@@ -71,7 +71,7 @@ const HorseRacing: NextPage = () => {
       setSelectedHorse(null);
       setError(null);
     } catch (error) {
-      setError('배팅 중 오류가 발생했습니다.');
+      setError('베팅 중 오류가 발생했습니다.');
       console.error('Betting error:', error);
     }
   };
